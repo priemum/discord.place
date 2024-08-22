@@ -3,7 +3,7 @@ const fetchGuildsMembers = require('@/utils/fetchGuildsMembers');
 const { query, validationResult, matchedData } = require('express-validator');
 const Server = require('@/schemas/Server');
 const User = require('@/schemas/User');
-const ServerVoteTripleEnabled = require('@/schemas/Server/Vote/TripleEnabled');
+const ServerVoteTripleEnabled = require('@/schemas/Server/Vote/TripleEnabled');      
 const { StandedOutServer } = require('@/schemas/StandedOut');
 
 module.exports = {
