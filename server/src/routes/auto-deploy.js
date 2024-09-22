@@ -4,7 +4,7 @@ const { promisify } = require('util');
 const exec = promisify(require('child_process').exec);
 
 module.exports = {
-  post: [
+  post: [      
     bodyParser.json(),
     async (request, response) => {
       const signature = request.headers['x-hub-signature-256'];
